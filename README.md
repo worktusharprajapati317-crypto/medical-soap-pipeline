@@ -84,7 +84,7 @@ export ANTHROPIC_API_KEY="sk-ant-..."
 ## Running the Notebooks
 
 ```bash
-jupyter notebook medical_transcription_soap_v2.ipynb
+jupyter notebook medical_transcription_soap.ipynb
 ```
 
 Both notebooks: **Run All Cells** (`Kernel → Restart & Run All`).
