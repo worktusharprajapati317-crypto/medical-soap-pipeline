@@ -1,10 +1,12 @@
 {
-  "validation_timestamp": "2026-03-25T12:39:13.011983",
+  "validation_timestamp": "2026-06-04T19:15:28.352092",
+  "validation_method": "linguistic_patterns + semantic_similarity (all-MiniLM-L6-v2)",
+  "semantic_threshold": 0.8,
   "overall_status": "PASS",
   "high_severity_count": 0,
   "medium_severity_count": 0,
   "low_severity_count": 0,
   "total_flags": 0,
   "flags": [],
-  "objective_section": "Palpation of lateral elbow reveals tenderness. No tenderness on medial aspect. Range-of-motion testing shows pain with extension, pronation and supination. No other notable findings."
+  "objective_section": "Tenderness on lateral aspect of right elbow. Mild swelling noted. Full range of motion of both elbow and hand. No redness or deformity observed. "
 }
