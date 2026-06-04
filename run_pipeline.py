@@ -116,10 +116,10 @@ SOAP_OLLAMA_PROMPT = (
     "  P - PLAN: Treatments, prescriptions, referrals, follow-up.\n\n"
     "RULES: No duplication. Output valid JSON only. Each value is a plain string.\n\n"
     "EXAMPLE:\n"
-    "{\"subjective\": \"Patient reports sharp right knee pain 7/10 for 2 days. Ibuprofen minimal relief.\",\n"
-    " \"objective\": \"Tenderness on medial joint line. Mild swelling. Limited ROM. X-ray: no fracture.\",\n"
-    " \"assessment\": \"Suspected medial meniscus tear.\",\n"
-    " \"plan\": \"Rest, ice, PT x 4 weeks. MRI if no improvement.\"}\n\n"
+    '{{"subjective": "Patient reports sharp right knee pain 7/10 for 2 days. Ibuprofen minimal relief.",\n'
+    ' "objective": "Tenderness on medial joint line. Mild swelling. Limited ROM. X-ray: no fracture.",\n'
+    ' "assessment": "Suspected medial meniscus tear.",\n'
+    ' "plan": "Rest, ice, PT x 4 weeks. MRI if no improvement."}}\n\n'
     "Transcript:\n\"\"\"\n{transcript}\n\"\"\"\n\n"
     "Output (JSON only):"
 )
